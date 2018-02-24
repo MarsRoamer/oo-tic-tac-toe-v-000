@@ -65,8 +65,6 @@ def turn
   end
 end
 
-
-
 def won?
   new_arr = []
   WIN_COMBINATIONS.each do |array|
@@ -92,4 +90,9 @@ def won?
     end
       false
   end
+
+  def full?
+    @board.none?{|i| i == " "}
+  end
+  
 end
