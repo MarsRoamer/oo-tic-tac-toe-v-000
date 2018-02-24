@@ -67,7 +67,7 @@ end
 
 
 
-def won?(board)
+def won?
   new_arr = []
   WIN_COMBINATIONS.each do |array|
 
