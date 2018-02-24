@@ -94,5 +94,5 @@ def won?
   def full?
     @board.none?{|i| i == " "}
   end
-  
+
 end
