@@ -95,4 +95,12 @@ def won?
     @board.none?{|i| i == " "}
   end
 
+  def draw?
+    if !won? && full?
+      true
+    else
+      false
+    end
+  end
+
 end
