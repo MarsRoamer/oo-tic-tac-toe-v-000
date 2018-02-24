@@ -110,7 +110,7 @@ def won?
   def winner
   won?
     WIN_COMBINATIONS.each do |array|
-  
+
         win_index_1 = array[0]
         win_index_2 = array[1]
         win_index_3 = array[2]
@@ -121,7 +121,7 @@ def won?
           return "X"
         elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
           return "O"
-  
+
         end
       end
         nil
