@@ -102,5 +102,9 @@ def won?
       false
     end
   end
+  
+  def over?
+    won? || full? || draw?
+  end
 
 end
