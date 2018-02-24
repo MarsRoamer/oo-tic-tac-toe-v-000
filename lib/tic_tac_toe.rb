@@ -74,9 +74,9 @@ def won?
       win_index_1 = array[0]
       win_index_2 = array[1]
       win_index_3 = array[2]
-      position_1 = board[win_index_1]
-      position_2 = board[win_index_2]
-      position_3 = board[win_index_3]
+      position_1 = @board[win_index_1]
+      position_2 = @board[win_index_2]
+      position_3 = @board[win_index_3]
       if position_1 == "X" && position_2 == "X" && position_3 == "X"
         new_arr.push(array[0])
         new_arr.push(array[1])
